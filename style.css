@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background:#f5f7fb; color:#222; margin:0; padding:20px; }
+.container { max-width:1000px; margin:0 auto; background:#fff; padding:18px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+header { display:flex; justify-content:space-between; align-items:center; }
+.top-links a { margin-left:8px; text-decoration:none; color:#333; }
+.branches { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+.branch-card { padding:14px 20px; background:#222; color:#fff; text-decoration:none; border-radius:8px; }
+.selector-form { display:flex; gap:12px; align-items:center; margin-top:12px; }
+.notes-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:12px; margin-top:16px; }
+.note-card { border:1px solid #eee; padding:12px; border-radius:8px; background:#fafafa; }
+.note-title { font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.note-actions { margin-top:8px; display:flex; gap:8px; }
+.btn { padding:6px 8px; text-decoration:none; border-radius:6px; border:1px solid #333; background:#fff; }
+.rating { margin-top:8px; }
+.star { cursor:pointer; font-size:20px; margin-right:6px; }
+.admin-table { width:100%; border-collapse:collapse; margin-top:12px; }
+.admin-table th, .admin-table td { border:1px solid #e6e6e6; padding:8px; text-align:left; }
+.error { background:#ffe6e6; padding:8px; border-radius:6px; color:#900; }
+.success { background:#e6ffe6; padding:8px; border-radius:6px; color:#060; }
